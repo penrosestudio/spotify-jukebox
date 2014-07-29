@@ -1,0 +1,29 @@
+{
+  "main": "index.html",
+  "name": "spotify-jukebox",
+  "description": "",
+  "version": "0.0.1",
+  "window": {
+    "title": "Spotify Jukebox",
+    "icon": "",
+    "toolbar": true,
+    "show": true,
+    "width": 800,
+    "height": 500,
+    "position": "center",
+    "min_width": 400,
+    "min_height": 200,
+    "max_width": 800,
+    "max_height": 600,
+    "show_in_taskbar": true,
+    "show": false    
+  },
+  "webkit": {
+    "plugin": true
+  },
+  "dependencies": {
+    "iron_mq": "~0.2.3",
+    "node-ironio": "~0.4.0",
+    "spotify-node-applescript": "~0.2.1"
+  }
+}
